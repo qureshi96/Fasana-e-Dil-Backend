@@ -39,7 +39,8 @@ app.post('/postblog', async(req,res)=>{
         content:req.body.content,
         id:req.body.id,
         subtitle:req.body.subtitle,
-        title:req.body.title
+        title:req.body.title,
+        isUrdu:req.body.isUrdu
 
     })
 

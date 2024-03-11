@@ -34,7 +34,7 @@ app.get('/getblogs',async (request,response)=>{
  //insert a blog 
 app.post('/postblog', async(req,res)=>{
     const blog= new Blog({
-        Created_date:req.body.name,
+        Created_date:req.body.Created_date,
         author:req.body.author,
         content:req.body.content,
         id:req.body.id,
